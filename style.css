@@ -2,4 +2,95 @@
     display: block;
     border: 2px solid black;
     padding: 5px;
+    border-radius: 4px;
+    position: relative;
+    width: 843px;
+}
+
+.k-key {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 3px;
+    float: left;
+
+
+}
+
+.clearfix {
+    clear: both;
+}
+
+.active {
+    background: slategray;
+}
+
+.line::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.key {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 3px;
+    padding: 4px;
+    text-align: center;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.key:hover {
+    color: #fff;
+    background: slategray;
+    cursor: pointer;
+}
+
+.backspace {
+    width: auto;
+}
+
+.slash {
+    width: 83px;
+}
+
+.tab {
+    width: 50px;
+}
+
+.caps {
+    width: 80px;
+}
+
+.enter {
+    width: 110px;
+}
+
+.l-shift {
+    width: 100px;
+}
+
+.r-shift {
+    width: 55px;
+}
+
+.space {
+    width: 270px;
+}
+
+.slash-2 {
+    width: 60px;
+}
+
+.up-arr,
+.left-arr,
+.right-arr,
+.down-arr {
+    width: 57px;
 }
